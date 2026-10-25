@@ -1,8 +1,6 @@
-# 🩺 Diabetes Prediction Model – Your First MLOps Project (FastAPI + Docker + K8s)
+# 🩺 Diabetes Prediction Model - MLOps Project (FastAPI + Docker + K8s)
 
-> 🎥 YouTube video for the project: **"Build Your First MLOps Project"**
-
-This project helps you learn **Building and Deploying an ML Model** using a simple and real-world use case: predicting whether a person is diabetic based on health metrics. We’ll go from:
+This project helps uses a simple and real-world use case: predicting whether a person is diabetic based on health metrics. Steps included:
 
 - ✅ Model Training
 - ✅ Building the Model locally
@@ -21,7 +19,7 @@ Predict if a person is diabetic based on:
 - BMI
 - Age
 
-We use a Random Forest Classifier trained on the **Pima Indians Diabetes Dataset**.
+Random Forest Classifier is trained on the **Pima Indians Diabetes Dataset**.
 
 ---
 
@@ -90,10 +88,5 @@ docker run -p 8000:8000 diabetes-prediction-model
 ```
 kubectl apply -f diabetes-prediction-model-deployment.yaml
 ```
-
-🙌 Credits
-
-Created by `ABHISHEK VEERAMALLA`
-
 Subscribe for more DevOps + MLOps content on the YouTube Channel - `Abhishek.Veeramalla`
 
